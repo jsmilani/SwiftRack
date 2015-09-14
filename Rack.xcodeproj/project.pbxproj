@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4A6F411BA5D63E00CBD635 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A6F401BA5D63E00CBD635 /* main.swift */; };
+		CC4A6F481BA5D65D00CBD635 /* Rack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A6F471BA5D65D00CBD635 /* Rack.swift */; };
+		CC4A6F4A1BA5D8B300CBD635 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A6F491BA5D8B300CBD635 /* Examples.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC4A6F3B1BA5D63E00CBD635 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC4A6F3D1BA5D63E00CBD635 /* Rack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rack; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4A6F401BA5D63E00CBD635 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CC4A6F471BA5D65D00CBD635 /* Rack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rack.swift; sourceTree = "<group>"; };
+		CC4A6F491BA5D8B300CBD635 /* Examples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4A6F3A1BA5D63E00CBD635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4A6F341BA5D63D00CBD635 = {
+			isa = PBXGroup;
+			children = (
+				CC4A6F3F1BA5D63E00CBD635 /* Rack */,
+				CC4A6F3E1BA5D63E00CBD635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4A6F3E1BA5D63E00CBD635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A6F3D1BA5D63E00CBD635 /* Rack */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4A6F3F1BA5D63E00CBD635 /* Rack */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A6F401BA5D63E00CBD635 /* main.swift */,
+				CC4A6F471BA5D65D00CBD635 /* Rack.swift */,
+				CC4A6F491BA5D8B300CBD635 /* Examples.swift */,
+			);
+			path = Rack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4A6F3C1BA5D63E00CBD635 /* Rack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4A6F441BA5D63E00CBD635 /* Build configuration list for PBXNativeTarget "Rack" */;
+			buildPhases = (
+				CC4A6F391BA5D63E00CBD635 /* Sources */,
+				CC4A6F3A1BA5D63E00CBD635 /* Frameworks */,
+				CC4A6F3B1BA5D63E00CBD635 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rack;
+			productName = Rack;
+			productReference = CC4A6F3D1BA5D63E00CBD635 /* Rack */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4A6F351BA5D63D00CBD635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "John Smilanick";
+				TargetAttributes = {
+					CC4A6F3C1BA5D63E00CBD635 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CC4A6F381BA5D63D00CBD635 /* Build configuration list for PBXProject "Rack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC4A6F341BA5D63D00CBD635;
+			productRefGroup = CC4A6F3E1BA5D63E00CBD635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4A6F3C1BA5D63E00CBD635 /* Rack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4A6F391BA5D63E00CBD635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A6F481BA5D65D00CBD635 /* Rack.swift in Sources */,
+				CC4A6F4A1BA5D8B300CBD635 /* Examples.swift in Sources */,
+				CC4A6F411BA5D63E00CBD635 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC4A6F421BA5D63E00CBD635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC4A6F431BA5D63E00CBD635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC4A6F451BA5D63E00CBD635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4A6F461BA5D63E00CBD635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4A6F381BA5D63D00CBD635 /* Build configuration list for PBXProject "Rack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4A6F421BA5D63E00CBD635 /* Debug */,
+				CC4A6F431BA5D63E00CBD635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4A6F441BA5D63E00CBD635 /* Build configuration list for PBXNativeTarget "Rack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4A6F451BA5D63E00CBD635 /* Debug */,
+				CC4A6F461BA5D63E00CBD635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4A6F351BA5D63D00CBD635 /* Project object */;
+}
